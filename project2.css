@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.screen{
+    margin-left:500px;
+    margin-top: 100px;
+    width: 400px;
+    height:510px;
+    border: 1px solid black;
+    background-color: antiquewhite;
+    box-shadow: 8px 8px 6px rgb(57, 50, 50);
+}
+.input-section{
+    padding: 7px;
+    border-radius: 20px;
+    width: 220px;
+    height: 30px;
+    font-size: 15px;
+}
+.heading{
+    margin-left: 125px;
+    color: black;
+}
+.heading-container{
+    background-image: url('Images/3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100px;
+}
+.adreess-bar{
+    margin-top: 8px;
+    display: flex;
+    gap:10px;
+}
+.logo-iamge{
+    width: 50px;
+    height: 45px;
+    margin-left: 10px;
+}
+.add-btn{
+    width: 70px;
+    height: 42px;
+    padding: 7px;
+    background-color: rgb(220, 216, 203);
+    font-size: 20px;
+}
+.add-btn:hover{
+    color: rgb(158, 5, 15);
+    cursor: pointer;
+}
+.list-container{
+    margin-top: 15px;
+    margin-left: 13px;
+    width: 370px;
+    height: 375px;
+    background-color: rgb(164, 234, 99);
+    border: 1px solid black;
+}
+.list-making{
+    width: 230px;
+    height: 30px;
+    padding-left: 5px;
+    text-align: center;
+    border: 2px solid black;
+    list-style: none;
+    font-size: 14px;
+    background-color: white;
+}
+.item1-container{
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 5px;
+    display: flex;
+    gap: 5px;
+}
+.btn{
+    width: 50px;
+    height: 33px;
+    color: white;
+}
+.btn:hover
+{
+    color: rgb(196, 203, 14);
+    cursor: pointer;
+}
+.btn-edit{
+    background-color: rgb(39, 11, 139);
+}
+.btn-delete{
+    background-color: red;
+}
+.name{
+    margin-left: 270px;
+}
